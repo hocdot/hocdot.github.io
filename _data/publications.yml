@@ -6,8 +6,8 @@ main:
     conference: Proceedings of the ACM on Software Engineering (PACMSE) Symposium on Foundations of Software Engineering (FSE), 2024.
     pdf: https://dynaroars.github.io/pubs/duong2024harnessing.pdf
     code: https://github.com/dynaroars/neuralsat
-    image: ./assets/img/teaser_example_2.png
-    notes: Oral Presentation
+    image: ./assets/img/veristable.png
+    # notes: Oral Presentation
 
   # - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
   #   authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
