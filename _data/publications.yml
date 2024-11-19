@@ -6,8 +6,15 @@ main:
     conference: Proceedings of the ACM on Software Engineering (PACMSE) Symposium on Foundations of Software Engineering (FSE), 2024.
     pdf: https://dynaroars.github.io/pubs/duong2024harnessing.pdf
     code: https://github.com/dynaroars/neuralsat
-    image: ./assets/img/veristable.png
-    # notes: Oral Presentation
+    image: ./assets/teaser/veristable.png
+
+  - title: "Training for Verification: Increasing Neuron Stability to Scale DNN Verification"
+    authors: Dong Xu; Nusrat Jahan Mozumder; <strong>Hai Duong</strong>; Matthew B. Dwyer
+    conference_short: TACAS'24
+    conference: Proceedings of the 30th International Conference on Tools and Algorithms for the Construction and Analysis of Systems (TACAS)
+    pdf: https://link.springer.com/content/pdf/10.1007/978-3-031-57256-2_2.pdf
+    code: https://github.com/edwardxu0/octopus
+    image: ./assets/teaser/octopus.png
 
   # - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
   #   authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
