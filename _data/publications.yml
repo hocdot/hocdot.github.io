@@ -16,7 +16,7 @@ main:
     code: https://github.com/edwardxu0/octopus
     image: ./assets/teaser/octopus.png
 
-  - title: SymInfer: "Inferring Numerical Invariants using Symbolic States (pp. 197–201)"
+  - title: "SymInfer: Inferring Numerical Invariants using Symbolic States (pp. 197–201)"
     authors: ThanhVu Nguyen; KimHao Nguyen; <strong>Hai Duong</strong>
     conference_short: ICSE-Demo'22
     conference: International Conference on Software Engineering (ICSE) - Tool Demo
