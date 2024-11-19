@@ -4,19 +4,18 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student at ...
+I am currently working on DNNs Verification with Prof. [ThanhVu Nguyen](https://dynaroars.cs.gmu.edu/people/nguyenthanhvuh/) at George Mason University.
 
 ## Research Interests
 
-- **Computer Vision:** image recognition, image generation, video captioning
-- **Machine Learning:** meta-learning, incremental learning, transfer learning
+- **DNN Reasoning:** Neural Network Verification, Automated Reasoning, Formal Method
+- **Machine Learning:** Reinforcement Learning
 
 ## News
 
-- **[Feb. 2020]** Our paper about incremental learning is accepted to CVPR 2020.
-- **[Feb. 2020]** We will host the ACM Multimedia Asia 2020 conference in Singapore!
-- **[Sept. 2019]** Our paper about few-shot learning is accepted to NeurIPS 2019.
-- **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019.
+- **[Jul. 2024]** **FSE'24** research paper on new optimizations developed for the NeuralSAT DNN verification tool.
+
+- **[Apr. 2024]** **TACAS'24** research paper on a verifiable-friendly training method.
 
 {% include_relative _includes/publications.md %}
 
