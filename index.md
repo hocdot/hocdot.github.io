@@ -8,7 +8,7 @@ I am currently working on DNNs Verification with Prof. [ThanhVu Nguyen](https://
 
 ## Research Interests
 
-- **DNN Reasoning:** Neural Network Verification, Automated Reasoning, Formal Method
+- **DNN Reasoning:** Neural Network Verification and Testing, Formal Method
 - **Machine Learning:** Reinforcement Learning
 
 ## News
@@ -19,4 +19,4 @@ I am currently working on DNNs Verification with Prof. [ThanhVu Nguyen](https://
 
 {% include_relative _includes/publications.md %}
 
-{% include_relative _includes/services.md %}
+{% include_relative _includes/misc.md %}
