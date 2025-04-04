@@ -12,7 +12,7 @@ main:
     authors: <strong>Hai Duong</strong>; Dong Xu; ThanhVu Nguyen; Matthew B. Dwyer
     conference_short: FSE'24
     conference: Proceedings of the ACM on Software Engineering (PACMSE) Symposium on Foundations of Software Engineering (FSE), 2024.
-    code: https://github.com/dynaroars/neuralsat
+    code: https://github.com/veristable/veristable
     pdf: ./assets/papers/duong2024harnessing.pdf
     image: ./assets/papers/veristable.png
 
