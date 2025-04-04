@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am currently working on DNN Verification with [Prof. ThanhVu Nguyen](https://dynaroars.cs.gmu.edu/people/nguyenthanhvuh/) at George Mason University.
+I am a Ph.D. student in Computer Science at George Mason University, currently working on DNN Verification with [Prof. ThanhVu Nguyen](https://dynaroars.cs.gmu.edu/people/nguyenthanhvuh/).
 
 ## Research Interests
 
