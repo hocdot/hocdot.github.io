@@ -4,12 +4,13 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student in Computer Science at George Mason University, currently working on DNN Verification with [Prof. ThanhVu Nguyen](https://dynaroars.cs.gmu.edu/people/nguyenthanhvuh/).
+I am a Ph.D. student in Computer Science at George Mason University, currently working on Deep Neural Network Verification with [Prof. ThanhVu Nguyen](https://dynaroars.cs.gmu.edu/people/nguyenthanhvuh/).
 
 ## Research Interests
 
-- **DNN Reasoning:** Neural Network Verification and Testing, Formal Method, Proof Generation
-- **Machine Learning:** Reinforcement Learning
+- DNN Verification and Testing, Proof Generation
+- Formal Method, Automated Reasoning
+<!-- - **Machine Learning:** Reinforcement Learning -->
 
 {% include_relative _includes/news.md %}
 
