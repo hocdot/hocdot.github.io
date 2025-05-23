@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student in Computer Science at George Mason University, currently working on Deep Neural Network Verification with [Prof. ThanhVu Nguyen](https://dynaroars.cs.gmu.edu/people/nguyenthanhvuh/).
+I am a Ph.D. student in Computer Science at [George Mason University](https://www.gmu.edu/), working with [Prof. ThanhVu Nguyen](https://dynaroars.cs.gmu.edu/people/nguyenthanhvuh/) at [ROARS Lab](https://roars.dev/) on Deep Neural Network Verification.
 
 ## Research Interests
 

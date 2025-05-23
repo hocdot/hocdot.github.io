@@ -24,13 +24,13 @@ main:
     pdf: ./assets/papers/xu2024training.pdf
     image: ./assets/papers/octopus.png
 
-  - title: "SymInfer: Inferring Numerical Invariants using Symbolic States (pp. 197–201)"
-    authors: ThanhVu Nguyen; KimHao Nguyen; Hai Duong
-    conference_short: ICSE-Demo'22
-    conference: International Conference on Software Engineering (ICSE) - Companion Proceedings, 2022.
-    code: https://github.com/dynaroars/dig
-    pdf: https://dynaroars.github.io/pubs/nguyen2022syminfer.pdf
-    image: ./assets/papers/syminfer.png
+  # - title: "SymInfer: Inferring Numerical Invariants using Symbolic States (pp. 197–201)"
+  #   authors: ThanhVu Nguyen; KimHao Nguyen; Hai Duong
+  #   conference_short: ICSE-Demo'22
+  #   conference: International Conference on Software Engineering (ICSE) - Companion Proceedings, 2022.
+  #   code: https://github.com/dynaroars/dig
+  #   pdf: https://dynaroars.github.io/pubs/nguyen2022syminfer.pdf
+  #   image: ./assets/papers/syminfer.png
 
 
   # - title: ""
