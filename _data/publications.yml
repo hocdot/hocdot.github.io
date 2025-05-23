@@ -1,15 +1,15 @@
 main:
 
-  # - title: "NeuralSAT: A High-Performance Verification Tool for Deep Neural Networks (to appear)"
-  #   authors: <strong>Hai Duong</strong>; ThanhVu Nguyen; Matthew B. Dwyer
-  #   conference_short: CAV'25
-  #   conference: Computer Aided Verification (CAV), 2025.
-  #   code: https://github.com/dynaroars/neuralsat
-  #   pdf: ./assets/papers/duong2025neuralsat.pdf
-  #   image: ./assets/papers/neuralsat.png
-  #   page: 
-  #   notes: 
-  #   bibtex: 
+  - title: "NeuralSAT: A High-Performance Verification Tool for Deep Neural Networks (to appear)"
+    authors: <strong>Hai Duong</strong>; ThanhVu Nguyen; Matthew B. Dwyer
+    conference_short: CAV'25
+    conference: Computer Aided Verification (CAV), 2025.
+    code: https://github.com/dynaroars/neuralsat
+    pdf: ./assets/papers/duong2025neuralsat.pdf
+    image: ./assets/papers/neuralsat.png
+    page: 
+    notes: 
+    bibtex: 
 
   - title: "Harnessing Neuron Stability to Improve DNN Verification (pp. 859-881)"
     authors: <strong>Hai Duong</strong>; Dong Xu; ThanhVu Nguyen; Matthew B. Dwyer
