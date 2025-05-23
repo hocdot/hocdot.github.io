@@ -8,8 +8,9 @@ I am a Ph.D. student in Computer Science at George Mason University, currently w
 
 ## Research Interests
 
-- DNN Verification and Testing, Proof Generation
+- DNN Verification and Testing
 - Formal Method, Automated Reasoning
+- Proof Generation and Checking
 <!-- - **Machine Learning:** Reinforcement Learning -->
 
 {% include_relative _includes/news.md %}

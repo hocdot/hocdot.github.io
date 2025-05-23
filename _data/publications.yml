@@ -7,9 +7,6 @@ main:
     code: https://github.com/dynaroars/neuralsat
     pdf: ./assets/papers/duong2025neuralsat.pdf
     image: ./assets/papers/neuralsat.png
-    page: 
-    notes: 
-    bibtex: 
 
   - title: "Harnessing Neuron Stability to Improve DNN Verification (pp. 859-881)"
     authors: Hai Duong; Dong Xu; ThanhVu Nguyen; Matthew B. Dwyer
