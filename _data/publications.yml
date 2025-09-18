@@ -40,7 +40,7 @@ main:
   #   conference_short: ICSE-Demo'22
   #   conference: International Conference on Software Engineering (ICSE) - Companion Proceedings, 2022.
   #   code: https://github.com/dynaroars/dig
-  #   pdf: https://dynaroars.github.io/pubs/nguyen2022syminfer.pdf
+  #   pdf: https://roars.dev/pubs/nguyen2022syminfer.pdf
   #   image: ./assets/papers/syminfer.png
 
 
