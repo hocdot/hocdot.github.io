@@ -3,35 +3,36 @@ main:
   - title: "Generating and Checking DNN Verification Proofs (to appear)"
     authors: Hai Duong; ThanhVu Nguyen; Matthew Dwyer
     conference_short: NeurIPS'25
-    conference: Neural Information Processing Systems (NeurIPS), 2025.
+    conference: Neural Information Processing Systems
     code: https://github.com/aptpchecker/APTPchecker
     pdf: ./assets/papers/duong2025generating.pdf
 
   - title: "Compositional Neural Network Verification via Assume-Guarantee Reasoning (to appear)"
     authors: Hai Duong; David Shriver; ThanhVu Nguyen; Matthew Dwyer 
     conference_short: NeurIPS'25
-    conference: Neural Information Processing Systems (NeurIPS), 2025.
+    conference: Neural Information Processing Systems
     code: https://github.com/hocdot/CoVeNN
     pdf: ./assets/papers/duong2025compositional.pdf
+    notes: Spotlight
 
   - title: "NeuralSAT: A High-Performance Verification Tool for Deep Neural Networks (pp.409–423)"
     authors: Hai Duong; ThanhVu Nguyen; Matthew Dwyer
     conference_short: CAV'25
-    conference: Computer Aided Verification (CAV), 2025.
+    conference: Computer Aided Verification
     code: https://github.com/dynaroars/neuralsat
     pdf: ./assets/papers/duong2025neuralsat.pdf
 
   - title: "Harnessing Neuron Stability to Improve DNN Verification (pp. 859-881)"
     authors: Hai Duong; Dong Xu; ThanhVu Nguyen; Matthew Dwyer
     conference_short: FSE'24
-    conference: Foundations of Software Engineering (FSE), 2024.
+    conference: Foundations of Software Engineering
     code: https://github.com/veristable/veristable
     pdf: ./assets/papers/duong2024harnessing.pdf
 
   - title: "Training for Verification: Increasing Neuron Stability to Scale DNN Verification (pp. 24-44)"
     authors: Dong Xu; Nusrat Mozumder; Hai Duong; Matthew Dwyer
     conference_short: TACAS'24
-    conference: Tools and Algorithms for the Construction and Analysis of Systems (TACAS), 2024.
+    conference: Tools and Algorithms for the Construction and Analysis of Systems
     code: https://github.com/edwardxu0/octopus
     pdf: ./assets/papers/xu2024training.pdf
 
