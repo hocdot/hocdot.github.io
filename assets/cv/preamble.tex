@@ -6,6 +6,7 @@
 \usepackage{fontawesome}
 \usepackage{xcolor}
 \usepackage{tcolorbox}
+\usepackage{etoolbox}
 \tcbuselibrary{documentation, skins}
 
 \usepackage{enumitem}
@@ -40,8 +41,5 @@
 \newcommand{\mywebsite}{\href{https://hocdot.github.io}{Personal Website}}
 \newcommand{\mygooglescholar}{\href{https://scholar.google.com/citations?hl=en&user=CPSuIeEAAAAJ&view_op=list_works&sortby=pubdate}{Google Scholar}}
 \newcommand{\mypubc}[1]{\item \label{#1} \fullcite{#1}}   %label,contribution percentage (optional)
-\newcommand{\beforegmu}{\begin{center}\rule{2in}{0.8pt}~\textbf{Before GMU}~\rule{2in}{0.8pt}\end{center}}
-\newcommand{\beforephd}{\begin{center}\rule{2in}{0.8pt}~\textbf{Before PhD}~\rule{2in}{0.8pt}\end{center}}
-% \newcommand{\myaward}[3]{\item~\label{#1} \textbf{#2}\hfill #3}
-% \myaward{Spotlight Paper Award~[\ref{duong2025compositional}]}{NeurIPS}{2025}
-\newcommand{\myaward}[4]{\item \textbf{#1}~#2, #3\hfill#4}
+% \newcommand{\myaward}[4]{\item \textbf{#1}~#2, #3\hfill#4}
+\newcommand{\myaward}[4]{\item \textbf{#1}\ifstrempty{#2}{}{~#2}, #3\hfill#4}
