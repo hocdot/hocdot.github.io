@@ -1,0 +1,47 @@
+\usepackage[T1]{fontenc}
+
+\usepackage[backend=bibtex,doi=false,isbn=false,maxcitenames=10,maxbibnames=10,abbreviate=false,style=alphabetic]{biblatex}
+\addbibresource{cv.bib}
+\usepackage[small,compact]{titlesec} %very powerful
+\usepackage{fontawesome}
+\usepackage{xcolor}
+\usepackage{tcolorbox}
+\tcbuselibrary{documentation, skins}
+
+\usepackage{enumitem}
+%\setitemize{topsep=1pt,parsep=1.5pt,partopsep=2pt}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{multirow}
+
+\newtoggle{usecoe}
+\settoggle{usecoe}{false}
+\newcommand{\coe}[1]{\iftoggle{usecoe}{#1}{}}
+\newcommand{\notcoe}[1]{\nottoggle{usecoe}{#1}{}}
+\newcommand{\coeite}[2]{\iftoggle{usecoe}{#1}{#2}}
+\newcommand{\updateinfo}[1][\today]{\par\vfill\hfill{\faPencil{} \scriptsize \color{darkgray}Last updated on #1}}
+
+\notcoe{
+\usepackage{graphicx}
+\usepackage{wrapfig}
+}
+\usepackage{complexity}
+\usepackage{booktabs}
+\usepackage{hyperref}
+
+
+\usepackage[margin=0.8in]{geometry}
+
+\newcommand{\myname}{Hai Duong}
+\newcommand{\myphone}{(+1) 571-340-5970}
+\newcommand{\myemail}{hduong22@gmu.edu}
+\newcommand{\myaddress}{Fairfax, VA}
+\newcommand{\myemailwork}{\href{mailto:hduong22@gmu.edu}{hduong22@gmu.edu}}
+\newcommand{\mywebsite}{\href{https://hocdot.github.io}{Personal Website}}
+\newcommand{\mygooglescholar}{\href{https://scholar.google.com/citations?hl=en&user=CPSuIeEAAAAJ&view_op=list_works&sortby=pubdate}{Google Scholar}}
+\newcommand{\mypubc}[1]{\item \label{#1} \fullcite{#1}}   %label,contribution percentage (optional)
+\newcommand{\beforegmu}{\begin{center}\rule{2in}{0.8pt}~\textbf{Before GMU}~\rule{2in}{0.8pt}\end{center}}
+\newcommand{\beforephd}{\begin{center}\rule{2in}{0.8pt}~\textbf{Before PhD}~\rule{2in}{0.8pt}\end{center}}
+% \newcommand{\myaward}[3]{\item~\label{#1} \textbf{#2}\hfill #3}
+% \myaward{Spotlight Paper Award~[\ref{duong2025compositional}]}{NeurIPS}{2025}
+\newcommand{\myaward}[4]{\item \textbf{#1}~#2, #3\hfill#4}

@@ -1,6 +1,7 @@
 
 ## News
 
+- 10/2025: Received *NeurIPS 2025 Scholar Award*.
 - 09/2025: **NeurIPS'25** paper on generating and checking DNN verification proofs.
 - 09/2025: **NeurIPS'25** paper on compositional DNN verification (Spotlight).
 - 08/2025: NeuralSAT ranked 2nd overall in **VNN-COMP'25**.
