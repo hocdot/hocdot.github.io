@@ -22,6 +22,15 @@ main:
     code: https://github.com/dynaroars/neuralsat
     pdf: ./assets/papers/duong2025neuralsat.pdf
 
+  - title: "NeuralSAT: Scaling Constraint Solving for DNN Verification (pp. 253-259)"
+    authors: Hai Duong; ThanhVu Nguyen
+    conference_short: SAIV'25
+    conference: International Symposium on AI Verification
+    track: Competition Contribution
+    code: https://github.com/dynaroars/neuralsat
+    pdf: ./assets/papers/duong2025neuralsat2.pdf
+
+
   - title: "Harnessing Neuron Stability to Improve DNN Verification (pp. 859-881)"
     authors: Hai Duong; Dong Xu; ThanhVu Nguyen; Matthew Dwyer
     conference_short: FSE'24
@@ -36,13 +45,13 @@ main:
     code: https://github.com/edwardxu0/octopus
     pdf: ./assets/papers/xu2024training.pdf
 
-  # - title: "SymInfer: Inferring Numerical Invariants using Symbolic States (pp. 197–201)"
-  #   authors: ThanhVu Nguyen; KimHao Nguyen; Hai Duong
-  #   conference_short: ICSE-Demo'22
-  #   conference: International Conference on Software Engineering (ICSE) - Companion Proceedings, 2022.
-  #   code: https://github.com/dynaroars/dig
-  #   pdf: https://roars.dev/pubs/nguyen2022syminfer.pdf
-  #   image: ./assets/papers/syminfer.png
+  - title: "SymInfer: Inferring Numerical Invariants using Symbolic States (pp. 197–201)"
+    authors: ThanhVu Nguyen; KimHao Nguyen; Hai Duong
+    conference_short: ICSE'22
+    conference: International Conference on Software Engineering
+    track: Companion Proceedings
+    code: https://github.com/dynaroars/dig
+    pdf: https://roars.dev/pubs/nguyen2022syminfer.pdf
 
 
   # - title: ""
