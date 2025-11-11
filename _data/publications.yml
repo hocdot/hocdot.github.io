@@ -1,12 +1,5 @@
 main:
 
-  - title: "Generating and Checking DNN Verification Proofs (to appear)"
-    authors: Hai Duong; ThanhVu Nguyen; Matthew Dwyer
-    conference_short: NeurIPS'25
-    conference: Neural Information Processing Systems
-    code: https://github.com/aptpchecker/APTPchecker
-    pdf: ./assets/papers/duong2025generating.pdf
-
   - title: "Compositional Neural Network Verification via Assume-Guarantee Reasoning (to appear)"
     authors: Hai Duong; David Shriver; ThanhVu Nguyen; Matthew Dwyer 
     conference_short: NeurIPS'25
@@ -14,6 +7,13 @@ main:
     code: https://github.com/hocdot/CoVeNN
     pdf: ./assets/papers/duong2025compositional.pdf
     notes: Spotlight
+
+  - title: "Generating and Checking DNN Verification Proofs (to appear)"
+    authors: Hai Duong; ThanhVu Nguyen; Matthew Dwyer
+    conference_short: NeurIPS'25
+    conference: Neural Information Processing Systems
+    code: https://github.com/aptpchecker/APTPchecker
+    pdf: ./assets/papers/duong2025generating.pdf
 
   - title: "NeuralSAT: A High-Performance Verification Tool for Deep Neural Networks (pp.409–423)"
     authors: Hai Duong; ThanhVu Nguyen; Matthew Dwyer
