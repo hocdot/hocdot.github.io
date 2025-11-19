@@ -14,7 +14,7 @@ main:
     authors: Hai Duong; ThanhVu Nguyen; Matthew Dwyer
     conference_short: NeurIPS'25
     conference: Neural Information Processing Systems
-    code: https://github.com/aptpchecker/APTPchecker
+    code: https://github.com/dynaroars/aptpchecker
     pdf: ./assets/papers/duong2025generating.pdf
 
   - title: "NeuralSAT: A High-Performance Verification Tool for Deep Neural Networks"
