@@ -1,5 +1,13 @@
 main:
 
+  - title: "Verifying Structural Robustness of Deep Neural Network"
+    pages: 
+    authors: Hai Duong; Thanh Le; Lam Nguyen; ThanhVu Nguyen
+    conference_short: FSE'26
+    conference: Foundations of Software Engineering
+    code: 
+    pdf: 
+
   - title: "Compositional Neural Network Verification via Assume-Guarantee Reasoning"
     pages: 
     authors: Hai Duong; David Shriver; ThanhVu Nguyen; Matthew Dwyer 
