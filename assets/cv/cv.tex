@@ -34,7 +34,10 @@
             \begin{description}[before=\small]
                 \item Developed a verification tool, NeuralSAT, ranked 4$^{th}$ in VNN-COMP'23, 2$^{nd}$ in '24 and '25.
                 \item Developed a proof generation tool, APTP, outperforms prior work on 400 DNNV problems.
-                \item Developed a compositional verification framework that verifies 6.5x problems than SoTA verifiers.
+                \item Developed optimization techniques for NeuralSAT, e.g., stabilization for reducing search space that verifies 12x problems, compositional techniques that verifies 6.5x problems than SoTA verifiers.
+                \item Developed structural perturbation framework that allows verifying 78\% problems (total 5508 problems) that SoTA verifiers cannot verify before.
+                \item Developed a DRL-guided smart branching technique for Branch-and-Bound verifiers that outperforms the SoTA branching heuristic by 15\%.
+                \item Developed a Brand-and-Bound framework for verifying correctness of LLMs that yeilds sound lower and upper bounds of probability that LLM can correctly solve input queries with arbitrary appended suffix.
                 \item Published papers at ISSTA, SAIV, FSE, CAV, and NeurIPS.
             \end{description}
         
@@ -103,10 +106,14 @@
 \section{Miscellaneous}
 
     \begin{itemize}
+        \item Reviewer at ECCV'26 and ICML'26.
         \item NeurIPS Scholar Award, 2025.
-        \item Contributed to proposal: NVIDIA Academic Grant Program: Trustworthy AI: Bringing Scalability and Assurance to DNN Verification. 2025, DGX Spark System. NVIDIA.
-        \item Contributed to proposal: NSF CAREER: NeuralSAT: A Constraint-Solving Framework for Verifying Deep Neural Networks. NSF 2238133. 8/1/2023–7/31/2028, \$510,509. NSF.
-        \item Contributed to proposal: Amazon Research Award (Automated Reasoning): Scalable and Precise DNN Constraint Solving with Abstraction and Conflict Clause Learning. 2023, \$50,000 unrestricted gift. Amazon.
+        \item Contributed to proposal: 
+        \begin{itemize}
+            \item NVIDIA Academic Grant Program: Trustworthy AI: Bringing Scalability and Assurance to DNN Verification. 2025, DGX Spark System. NVIDIA.
+            \item NSF CAREER: NeuralSAT: A Constraint-Solving Framework for Verifying Deep Neural Networks. NSF 2238133. 8/1/2023–7/31/2028, \$510,509. NSF.
+            \item Amazon Research Award (Automated Reasoning): Scalable and Precise DNN Constraint Solving with Abstraction and Conflict Clause Learning. 2023, \$50,000 unrestricted gift. Amazon.
+        \end{itemize}
         \item Helped review papers at ISSTA'23, PLDI'24, OOPSLA'24, ICLR'25.
     \end{itemize}
 
