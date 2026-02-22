@@ -5,7 +5,7 @@ main:
     authors: Hai Duong; Lam Nguyen; Thanh Le; ThanhVu Nguyen
     conference_short: CVPR'26
     conference: Computer Vision and Pattern Recognition
-    code: https://github.com/dynaroars/VeriDuo
+    code: https://github.com/dynaroars/VeriDou
     pdf: ./assets/papers/duong2026verifying2.pdf
 
   - title: "Verifying Structural Robustness of Deep Neural Network"
