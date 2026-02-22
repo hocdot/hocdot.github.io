@@ -1,5 +1,13 @@
 main:
 
+  - title: "Verifying Neural Network Robustness with Dual Perturbations"
+    pages: 
+    authors: Hai Duong; Lam Nguyen; Thanh Le; ThanhVu Nguyen
+    conference_short: CVPR'26
+    conference: Computer Vision and Pattern Recognition
+    code: https://github.com/dynaroars/VeriDuo
+    pdf: ./assets/papers/duong2026verifying2.pdf
+
   - title: "Verifying Structural Robustness of Deep Neural Network"
     pages: 
     authors: Hai Duong; Thanh Le; Lam Nguyen; ThanhVu Nguyen

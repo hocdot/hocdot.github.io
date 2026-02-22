@@ -1,7 +1,8 @@
 
 ## News
 
-- 12/2025: **FSE'26** paper on formalizing and verifying structural robustness properties of AI systems.
+- 02/2026: **CVPR'26** paper on analyzing neural network robustness with dual perturbations.
+- 01/2026: **FSE'26** paper on verifying structural robustness properties of AI systems.
 - 10/2025: Received *NeurIPS'25 Scholar Award*.
 - 09/2025: **NeurIPS'25** paper on generating and checking DNN verification proofs.
 - 09/2025: **NeurIPS'25** paper on compositional DNN verification (*Spotlight*).
