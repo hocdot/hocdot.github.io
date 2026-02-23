@@ -5,6 +5,7 @@ main:
     authors: Hai Duong; Lam Nguyen; Thanh Le; ThanhVu Nguyen
     conference_short: CVPR'26
     conference: Computer Vision and Pattern Recognition
+    year: 2026
     code: https://github.com/dynaroars/VeriDou
     pdf: ./assets/papers/duong2026verifying2.pdf
 
@@ -13,6 +14,7 @@ main:
     authors: Hai Duong; Thanh Le; Lam Nguyen; ThanhVu Nguyen
     conference_short: FSE'26
     conference: Foundations of Software Engineering
+    year: 2026
     code: https://github.com/dynaroars/verify_structural_robustness
     pdf: ./assets/papers/duong2026verifying.pdf
 
@@ -21,6 +23,7 @@ main:
     authors: Hai Duong; David Shriver; ThanhVu Nguyen; Matthew Dwyer 
     conference_short: NeurIPS'25
     conference: Neural Information Processing Systems
+    year: 2025
     code: https://github.com/hocdot/CoVeNN
     pdf: ./assets/papers/duong2025compositional.pdf
     notes: Spotlight
@@ -30,6 +33,7 @@ main:
     authors: Hai Duong; ThanhVu Nguyen; Matthew Dwyer
     conference_short: NeurIPS'25
     conference: Neural Information Processing Systems
+    year: 2025
     code: https://github.com/dynaroars/aptpchecker
     pdf: ./assets/papers/duong2025generating.pdf
 
@@ -38,6 +42,7 @@ main:
     authors: Hai Duong; ThanhVu Nguyen; Matthew Dwyer
     conference_short: CAV'25
     conference: Computer Aided Verification
+    year: 2025
     code: https://github.com/dynaroars/neuralsat
     pdf: ./assets/papers/duong2025neuralsat.pdf
 
@@ -47,6 +52,7 @@ main:
     conference_short: SAIV'25
     conference: International Symposium on AI Verification
     track: Competition Contribution
+    year: 2025
     code: https://github.com/dynaroars/neuralsat
     pdf: ./assets/papers/duong2025neuralsat2.pdf
 
@@ -55,6 +61,7 @@ main:
     authors: Hai Duong; Dong Xu; ThanhVu Nguyen; Matthew Dwyer
     conference_short: FSE'24
     conference: Foundations of Software Engineering
+    year: 2024
     code: https://github.com/veristable/veristable
     pdf: ./assets/papers/duong2024harnessing.pdf
 
@@ -63,6 +70,7 @@ main:
     authors: Dong Xu; Nusrat Mozumder; Hai Duong; Matthew Dwyer
     conference_short: TACAS'24
     conference: Tools and Algorithms for the Construction and Analysis of Systems
+    year: 2024
     code: https://github.com/edwardxu0/octopus
     pdf: ./assets/papers/xu2024training.pdf
 
@@ -72,5 +80,6 @@ main:
     conference_short: ICSE'22
     conference: International Conference on Software Engineering
     track: Companion Proceedings
+    year: 2022
     code: https://github.com/dynaroars/dig
     pdf: https://roars.dev/pubs/nguyen2022syminfer.pdf
