@@ -15,7 +15,7 @@ main:
     conference_short: FSE'26
     conference: Foundations of Software Engineering
     year: 2026
-    code: https://github.com/dynaroars/verify_structural_robustness
+    code: https://github.com/dynaroars/VeriS
     pdf: ./assets/papers/duong2026verifying.pdf
 
   - title: "Compositional Neural Network Verification via Assume-Guarantee Reasoning"

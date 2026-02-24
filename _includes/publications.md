@@ -1,11 +1,12 @@
-<h2 id="publications" style="margin: 2px 0px -15px;"><a href="{{ '/publication' | relative_url }}">Publications</a></h2>
+<!-- <h2 id="publications" style="margin: 2px 0px -15px;"><a href="{{ '/publication' | relative_url }}">Publications</a></h2> -->
+<h2 id="publications" style="margin: 2px 0px -15px;">Publications</h2>
 
 <div class="publications">
 {% if group_by_year %}
   {% assign grouped = site.data.publications.main | group_by: "year" | sort: "name" | reverse %}
   {% assign counter = 1 %}
   {% for year_group in grouped %}
-  <h3 style="margin: 1em 0 0.5em 0; font-size: 1.3rem;">{{ year_group.name }}</h3>
+  <h3 style="margin: 1em 0 0.5em 0; font-size: 1.15rem;">{{ year_group.name }}</h3>
   <ol class="bibliography" start="{{ counter }}">
     {% for link in year_group.items %}
     <li>
