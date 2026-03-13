@@ -1,7 +1,5 @@
 ## Research Interests
 
-- DNN Verification and Testing
+- DNN Verification and Testing, Proof Generation and Checking
 - Formal Method, Automated Reasoning
-- Proof Generation and Checking
-- Deep Reinforcement Learning
-- LLM Correctness Reasoning
+- Correctness and Formal Reasoning about LLMs
