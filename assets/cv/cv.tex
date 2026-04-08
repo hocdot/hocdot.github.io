@@ -32,24 +32,24 @@
     \begin{itemize}
         \item \textbf{Research Assistant}, \href{https://roars.dev/}{ROARS Lab}, \href{https://www.gmu.edu}{George Mason University}\hfill 2022--present
             \begin{description}[before=\small]
-                \item Developed a verification tool, NeuralSAT, ranked 4$^{th}$ in VNN-COMP'23, 2$^{nd}$ in '24 and '25.
-                \item Developed a proof generation tool, APTP, outperforms prior work on 400 DNNV problems.
-                \item Developed optimization techniques for NeuralSAT, e.g., stabilization for reducing search space that verifies 12x problems, compositional techniques that verifies 6.5x problems than SoTA verifiers.
-                \item Developed structural perturbation framework that allows verifying 78\% problems (total 5508 problems) that SoTA verifiers cannot verify before.
-                \item Developed a DRL-guided smart branching technique for Branch-and-Bound verifiers that outperforms the SoTA branching heuristic by 15\%.
-                \item Developed a Brand-and-Bound framework for verifying correctness of LLMs that yeilds sound lower and upper bounds of probability that LLM can correctly solve input queries with arbitrary appended suffix.
+                \item Developed a verification tool, \href{https://github.com/dynaroars/neuralsat}{NeuralSAT}, ranked 4$^{th}$ in VNN-COMP'23, 2$^{nd}$ in '24 and '25.
+                % \item Developed a proof generation tool, APTP, outperforms prior work on 400 DNNV problems.
+                \item Developed optimization techniques for DNN verification, e.g., stabilization~\ref{duong2024harnessing}, composition~\ref{duong2025compositional}, structural perturbations~\ref{duong2026verifying}, training for verification~\ref{xu2024training}, and DRL-guided branching heuristic~\ref{duong2026rsb}, etc.
+                % \item Developed structural perturbation framework that allows verifying 78\% problems (total 5508 problems) that SoTA verifiers cannot verify before.
+                % \item Developed a DRL-guided smart branching technique for Branch-and-Bound verifiers that outperforms the SoTA branching heuristic by 15\%.
+                % \item Developed a Brand-and-Bound framework for verifying correctness of LLMs that yeilds sound lower and upper bounds of probability that LLM can correctly solve input queries with arbitrary appended suffix.
                 \item Published papers at ISSTA, SAIV, FSE, CAV, NeurIPS, and CVPR.
             \end{description}
         
         \item \textbf{Research Assistant}, \href{https://xuanbachle.github.io/}{BachLe's Lab}, \href{https://www.unimelb.edu.au}{University of Melbourne}\hfill 2021--2022
             \begin{description}[before=\small]
-                \item Worked on a graph-based source code modeling and explanation technique (published at ICSME'22).
+                \item Worked on a graph-based source code modeling and explanation technique~\ref{nguyen2022ffl}.
             \end{description}
         
         \item \textbf{Research Assistant}, \href{https://research.hust.edu.vn/seee-lab-sensor-lab}{Sensor Lab}, \href{https://www.hust.edu.vn/en/}{Hanoi University of Science and Technology}\hfill 2019--2021
             \begin{description}[before=\small]
-                \item Developed a speech enhancement system using graph-based neural beamforming.
-                \item Developed a small-footprint keyword spotting system using deformable convolution.
+                \item Developed a speech enhancement system using graph-based neural beamforming~\ref{nguyen2022multi}.
+                \item Developed a small-footprint keyword spotting system using deformable convolution~\ref{nguyen2023efficient}.
                 % \item Published papers at IETE'21 and IJACSA'22.
             \end{description}
     \end{itemize}
@@ -97,6 +97,7 @@
 
     \begin{enumerate}[label=U\arabic*]
         \mypubc{duong2026rsb}
+        \mypubc{le2026verca}
         \mypubc{yin2025deepgpm}
         \mypubc{le2025formal}
         \mypubc{le2025fggm}
@@ -109,16 +110,17 @@
     \begin{itemize}
         \item Contribute to proposals: 
         \begin{itemize}
-            \item NVIDIA Academic Grant Program: Trustworthy AI: Bringing Scalability and Assurance to DNN Verification. 2025, DGX Spark System. NVIDIA.
-            \item Amazon Research Award (Automated Reasoning): Scalable and Precise DNN Constraint Solving with Abstraction and Conflict Clause Learning. 2023, \$50,000 unrestricted gift. Amazon.
-            \item NSF CAREER: NeuralSAT: A Constraint-Solving Framework for Verifying Deep Neural Networks. NSF 2238133. 8/1/2023–7/31/2028, \$510,509. NSF.
+            \item Amazon Research Award (Build on Trainium: Responsible AI): Leveraging AWS Trainium for Verifiable AI and ML-Assisted Mathematical Reasoning (2026). \$250,000 Training Credits. Amazon.
+            \item NVIDIA Academic Grant Program: Trustworthy AI: Bringing Scalability and Assurance to DNN Verification (2025). DGX Spark System. NVIDIA.
+            \item Amazon Research Award (Automated Reasoning): Scalable and Precise DNN Constraint Solving with Abstraction and Conflict Clause Learning (2023). \$50,000 unrestricted gift. Amazon.
+            \item NSF CAREER: NeuralSAT: A Constraint-Solving Framework for Verifying Deep Neural Networks (2023). NSF 2238133. 8/1/2023–7/31/2028, \$510,509. NSF.
         \end{itemize}
         \item Help review conference papers:
         \begin{itemize}
             \item ISSTA'23
             \item PLDI'24, OOPSLA'24
             \item ICLR'25
-            \item ICML'26, ECCV'26
+            \item CVPR'26, ICML'26, ECCV'26, NeurIPS'26
         \end{itemize}
     \end{itemize}
 

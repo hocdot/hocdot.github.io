@@ -10,4 +10,4 @@ layout: homepage
 
 {% include_relative _includes/publications.md %}
 
-{% include_relative _includes/misc.md %}
+<!-- {% include_relative _includes/misc.md %} -->
