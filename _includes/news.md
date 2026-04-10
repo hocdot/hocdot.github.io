@@ -1,10 +1,10 @@
 
 ## News
 
-- 04/2026: Received *Applied Scientist Intern* offer at **Amazon**.
+- 04/2026: Received **Applied Scientist Intern** at **Amazon**.
 - 02/2026: **CVPR'26** paper on analyzing DNN robustness with dual perturbations (*Highlight*).
 - 01/2026: **FSE'26** paper on verifying structural robustness properties of AI systems.
-- 10/2025: Received *NeurIPS'25 Scholar Award*.
+- 10/2025: Received **NeurIPS'25 Scholar Award**.
 - 09/2025: **NeurIPS'25** paper on generating and checking DNN verification proofs.
 - 09/2025: **NeurIPS'25** paper on compositional DNN verification (*Spotlight*).
 - 08/2025: NeuralSAT ranked 2nd overall in **VNN-COMP'25**.
