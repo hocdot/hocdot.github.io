@@ -35,6 +35,9 @@ auto_dark_mode: false
 # You can use this option to choose between Serif or Sans Serif fonts.
 font: "Serif" # or "Sans Serif"
 
+# So Markdown in HTML blocks (e.g. the “More” list in _includes/news.md) is processed.
+kramdown:
+  parse_block_html: true
 
 # The following files will be removed from the generated website.
 exclude:

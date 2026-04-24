@@ -73,3 +73,14 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 .publications ol.bibliography li div.abstract.hidden.open { border-color: var(--global-text-color); }
 
 .publications ol.bibliography li .teaser { border-radius: 8px; box-shadow: 3px 3px 6px #888; height: 123px; width: 270px; margin-top: 5px; margin-left: 5px; margin-bottom: 5px; object-fit: cover; }
+
+/* Collapsible “More” / older news (match theme ul bottom margin; indent only the control) */
+section ul:has(+ details.news-earlier) { margin-bottom: 0.2em; }
+section details.news-earlier { margin: 0 0 20px; padding: 0; }
+section details.news-earlier > summary { padding-left: 1.2em; cursor: pointer; color: var(--global-theme-color); font-weight: 600; }
+section details.news-earlier[open] > summary { margin-bottom: 0.35em; }
+section details.news-earlier ul {
+  list-style: disc;
+  margin: 0.2em 0 0 0; /* do not add bottom margin: outer details supplies gap before next section */
+  padding-inline-start: 40px; /* match default top-level ul with first news list */
+}
