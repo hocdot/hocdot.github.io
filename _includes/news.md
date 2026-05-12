@@ -1,6 +1,6 @@
 ## News
+- 05/2026: Started **Applied Scientist Intern** at **Amazon** (*AWS*).
 - 04/2026: Received **Outstanding PhD Student Award** from **GMU** (*CS*).
-- 04/2026: Received **Applied Scientist Intern** at **Amazon** (*AWS*).
 - 04/2026: Received **CVPR'26 Scholar Award**.
 - 02/2026: **CVPR'26** paper on analyzing DNN robustness with dual perturbations (*Highlight*).
 - 01/2026: **FSE'26** paper on verifying structural robustness properties of AI systems.
