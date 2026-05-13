@@ -1,5 +1,6 @@
 ## News
 - 05/2026: Started **Applied Scientist Intern** at **Amazon** (*AWS*).
+- 05/2026: Received **ICML'26 Silver Reviewer Award**.
 - 04/2026: Received **Outstanding PhD Student Award** from **GMU** (*CS*).
 - 04/2026: Received **CVPR'26 Scholar Award**.
 - 02/2026: **CVPR'26** paper on analyzing DNN robustness with dual perturbations (*Highlight*).
