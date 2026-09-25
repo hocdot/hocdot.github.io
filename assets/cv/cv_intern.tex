@@ -1,0 +1,103 @@
+\documentclass[11pt]{article}
+
+\input{preamble}
+
+% ===== Industry (tech) resume styling — single column, ATS-friendly =====
+\geometry{margin=0.45in}
+\linespread{1.0}
+
+% Plain, subtle links (no boxes)
+\hypersetup{colorlinks=true,urlcolor={black!35!blue},linkcolor={black!35!blue}}
+
+% Bold uppercase section headers, no rule, unnumbered
+\titleformat{\section}{\normalfont\large\bfseries}{}{0em}{\MakeUppercase}
+\titlespacing*{\section}{0pt}{0.6ex}{0.3ex}
+
+\setlist{topsep=1pt,parsep=0pt,partopsep=0pt,itemsep=0.6pt,leftmargin=1.3em}
+
+% Show only the first author + "et al." in compact citations
+\ExecuteBibliographyOptions{maxcitenames=1,mincitenames=1}
+
+% Compact one-line publication entry: first author "et al.", title, venue, year
+\newcommand{\mypubmini}[2]{\item \label{#1}\citeauthor{#1}, \emph{\citetitle{#1}}, #2~\citeyear{#1}.}
+
+% Experience entry header (single line): \role{Title}{Company}{Location}{Dates}
+\newcommand{\role}[4]{\item \textbf{#1}, #2, {\itshape #3}\hfill #4}
+
+\begin{document}
+\thispagestyle{empty}
+
+\begin{center}
+    {\bfseries\Huge \myname{}}\\[0.6ex]
+    {\small \myaddress ~$\vert$~ \myphone ~$\vert$~ \myemailwork ~$\vert$~ \mywebsite ~$\vert$~ \mygooglescholar}
+\end{center}
+\vspace{0.3ex}
+
+\section{Summary}
+    Applied Scientist Intern at AWS and PhD student in Computer Science at George Mason University specializing in
+    automated reasoning, and scalable verification of deep neural networks.
+    Lead developer of NeuralSAT, an open-source engine ranked $2^{nd}$ at VNN-COMPs, with published papers at
+    CVPR, NeurIPS, CAV, and FSE. 
+    % Strong engineering in Python, PyTorch, and C/C++.
+
+\section{Education}
+    \begin{itemize}
+        \item \textbf{PhD}, Computer Science, \href{https://www.gmu.edu}{George Mason University}, Fairfax, VA\hfill 2022--present
+        \item \textbf{MS}, Electrical Engineering, \href{https://www.hust.edu.vn/en/}{Hanoi University of Science and Technology}, Hanoi, VN\hfill 2021
+        \item \textbf{BS}, Electrical Engineering, \href{https://www.hust.edu.vn/en/}{Hanoi University of Science and Technology}, Hanoi, VN\hfill 2019
+    \end{itemize}
+
+\section{Experience}
+    \begin{itemize}
+        \role{Applied Scientist Intern}{\href{https://aws.amazon.com/}{Amazon Web Services}}{Santa Clara, CA}{Summer 2026}
+            \begin{itemize}[before=\small,label=\textbullet]
+                \item Developed SMT-based path enumeration and fuzzing test generation for compliance rules of AWS services in ControlsDSL, achieving 100\% test coverage and exposing behavioral divergences between legacy and migrated rules.
+                \item Designed automated cross-compliance migration framework porting Java/Python to ControlsDSL and automatically verifies bidirectional behavioral equivalence. Migrated successfully 40\% of staging rules to ControlsDSL for production.
+            \end{itemize}
+        \role{Graduate Researcher}{\href{https://roars.dev/}{ROARS Lab}, \href{https://www.gmu.edu}{George Mason University}}{Fairfax, VA}{2022--present}
+            \begin{itemize}[before=\small,label=\textbullet]
+                \item Architected \href{https://github.com/dynaroars/neuralsat}{NeuralSAT} (Python, PyTorch, CUDA), an open-source GPU-accelerated DNN verification engine; ranked $4^{th}$ (2023, 2026) and $2^{nd}$ (2024, 2025) at VNN-COMP.
+                \item Developed \href{https://github.com/veristable/veristable}{VeriStable} (FSE'24), a DPLL-based verifier exploiting stable neurons; outperforms $\alpha$-$\beta$-CROWN and NeuralSAT and solved 48 of 51 hard GDVB problems vs. 4 for the baseline (12$\times$ more).
+                \item Extended robustness verification to new perturbation classes with \href{https://github.com/dynaroars/VeriS}{VeriS} (FSE'26) and \href{https://github.com/dynaroars/VeriDou}{VeriDou} (CVPR'26 Highlight): VeriS verifies 78\% of 5{,}508 structural-robustness problems prior tools could not, while VeriDou exposes adversarial examples over 14{,}340 instances on networks prior methods claimed robust.
+                \item Designed \href{https://github.com/dynaroars/aptpchecker}{APTP} (NeurIPS'25), a verifier-independent proof format whose checker outperforms prior work across 16 networks and 400 problems.
+                \item Created Cabl, a constrained abstract domain using a Lagrangian primal--dual method; over 8{,}640 instances, verifies up to 19\% more properties than the best prior abstraction and 31\% more on constrained properties at 5.7$\times$ the speed.
+                \item Built VerCa, an autoencoder robustness verifier solving 87\% of 1{,}500 latent-space properties vs. 66--67\% for state-of-the-art verifiers, with zero invalid counterexamples.
+            \end{itemize}
+        \role{Research Intern}{\href{https://xuanbachle.github.io/}{BachLe's Lab}, University of Melbourne}{Remote}{2021--2022}
+            \begin{itemize}[before=\small,label=\textbullet]
+                \item Built FFL, a graph-neural fault-localization model for student code that improved top-1 accuracy by up to 197\% over prior baselines and localized bugs within the top-10 lines for 83--85\% of programs (ICSME 2022).
+            \end{itemize}
+        % \role{Research Assistant}{\href{https://research.hust.edu.vn/seee-lab-sensor-lab}{Sensor Lab}, HUST}{Hanoi, VN}{2019--2021}
+        %     \begin{itemize}[before=\small,label=\textbullet]
+        %         \item Developed a multi-channel speech-enhancement system (graph-neural beamforming) and an on-device keyword-spotting model with deformable convolutions; published in IETE Journal of Research and IJACSA.
+        %     \end{itemize}
+    \end{itemize}
+
+\section{Skills}
+    \begin{itemize}
+        \item \textbf{Programming Languages:} Python, C/C++, MATLAB, SMTLib
+        \item \textbf{ML \& Systems:} PyTorch, CUDA/GPU acceleration, NumPy
+        \item \textbf{Methods:} SAT/SMT solving, abstract interpretation, branch-and-bound, LP/MILP, reinforcement learning
+    \end{itemize}
+
+\section{Selected Publications \normalfont\small(\href{https://scholar.google.com/citations?hl=en&user=CPSuIeEAAAAJ&view_op=list_works&sortby=pubdate}{full list})}
+    \begin{enumerate}[label=P\arabic*,leftmargin=2.2em]
+        \mypubmini{duong2026verifying3}{NeurIPS}
+        \mypubmini{duong2026verifying2}{CVPR}
+        \mypubmini{duong2026verifying}{FSE}
+        \mypubmini{duong2025compositional}{NeurIPS}
+        \mypubmini{duong2025generating}{NeurIPS}
+        \mypubmini{duong2025neuralsat}{CAV}
+        \mypubmini{duong2024harnessing}{FSE}
+        \mypubmini{xu2024training}{TACAS}
+    \end{enumerate}
+
+\section{Awards}
+    \begin{itemize}
+        \myaward{Tinker Research Grants}{(\$5,000 API Credits)}{Thinking Machines}{2026}
+        \myaward{Outstanding PhD Student Award}{}{GMU}{2026}
+        \myaward{Highlight Paper Award}{[\ref{duong2026verifying2}]}{CVPR}{2026}
+        \myaward{Spotlight Paper Award}{[\ref{duong2025compositional}]}{NeurIPS}{2025}
+    \end{itemize}
+
+\end{document}

@@ -1,5 +1,14 @@
 main:
 
+  - title: "Verifying Neural Networks with Reinforcement Learning"
+    pages: 
+    authors: Hai Duong; Thanh Le; ThanhVu Nguyen
+    conference_short: NeurIPS'26
+    conference: Neural Information Processing Systems
+    year: 2026
+    code: 
+    pdf: ./assets/papers/duong2026verifying3.pdf
+
   - title: "Verifying Neural Network Robustness with Dual Perturbations"
     pages: 
     authors: Hai Duong; Lam Nguyen; Thanh Le; ThanhVu Nguyen
