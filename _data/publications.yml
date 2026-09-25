@@ -7,7 +7,7 @@ main:
     conference: Neural Information Processing Systems
     year: 2026
     code: 
-    pdf: ./assets/papers/duong2026verifying3.pdf
+    # pdf: ./assets/papers/duong2026verifying3.pdf
 
   - title: "Verifying Neural Network Robustness with Dual Perturbations"
     pages: 
