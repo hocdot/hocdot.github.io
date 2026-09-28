@@ -31,11 +31,26 @@
 \section{Experience}
     \begin{itemize}
         \item \textbf{Applied Scientist Intern}, \href{https://aws.amazon.com/}{Amazon Web Services}, \href{https://www.amazon.com}{Amazon}\hfill 2026
+            \begin{description}[before=\small]
+                \item Developed SMT-based path enumeration and fuzzing for AWS compliance, achieving 100\% test coverage and exposing legacy-migration divergences.
+                \item Built automated Java/Python to ControlsDSL migration framework with bidirectional equivalence verification, porting 40\% of staging rules to production.
+            \end{description}
         \item \textbf{Research Assistant}, \href{https://roars.dev/}{ROARS Lab}, \href{https://www.gmu.edu}{George Mason University}\hfill 2022--present
             \begin{description}[before=\small]
-                \item Developed a verification tool, \href{https://github.com/dynaroars/neuralsat}{NeuralSAT}~\ref{duong2025neuralsat}, ranked 4$^{th}$ in VNN-COMP'23, 2$^{nd}$ in '24 and '25.
+                \item Developed a verification tool, \href{https://github.com/dynaroars/neuralsat}{NeuralSAT} (\ref{duong2025neuralsat}, \ref{duong2025neuralsat2}), ranked 2$^{nd}$ in VNN-COMPs.
                 % \item Developed a proof generation tool, APTP, outperforms prior work on 400 DNNV problems.
-                \item Developed optimization techniques for DNN verification, e.g., stabilization~\ref{duong2024harnessing}, composition~\ref{duong2025compositional}, unsat proof~\ref{duong2025generating}, structural perturbations~\ref{duong2026verifying}, training for verification~\ref{xu2024training}, etc.
+                \item Developed optimization techniques for DNN verification, e.g., 
+                    neuron stabilization (\ref{duong2024harnessing}), 
+                    network composition (\ref{duong2025compositional}), 
+                    DRL-based branching heuristic (\ref{duong2026verifying3}), 
+                    generating and checking unsat proofs (\ref{duong2025generating}), 
+                    structural perturbations (\ref{duong2026verifying}), 
+                    dual perturbations (\ref{duong2026verifying2}), 
+                    training for verification (\ref{xu2024training}).
+                \item Developed abtract domains for DNN verification, e.g., 
+                    constrained inputs (\ref{duong2026clad}), 
+                    transformers-based models (\ref{duong2026zonogpt}), 
+                    multi-parameter bit-flip perturbations (\ref{duong2026towards})
                 % \item Developed structural perturbation framework that allows verifying 78\% problems (total 5508 problems) that SoTA verifiers cannot verify before.
                 % \item Developed a DRL-guided smart branching technique for Branch-and-Bound verifiers that outperforms the SoTA branching heuristic by 15\%.
                 % \item Developed a Brand-and-Bound framework for verifying correctness of LLMs that yeilds sound lower and upper bounds of probability that LLM can correctly solve input queries with arbitrary appended suffix.
@@ -44,13 +59,13 @@
         
         \item \textbf{Research Assistant}, \href{https://xuanbachle.github.io/}{BachLe's Lab}, \href{https://www.unimelb.edu.au}{University of Melbourne}\hfill 2021--2022
             \begin{description}[before=\small]
-                \item Worked on a graph-based source code modeling and explanation technique~\ref{nguyen2022ffl}.
+                \item Worked on a graph-based source code modeling and explanation technique (\ref{nguyen2022ffl}).
             \end{description}
         
         \item \textbf{Research Assistant}, \href{https://research.hust.edu.vn/seee-lab-sensor-lab}{Sensor Lab}, \href{https://www.hust.edu.vn/en/}{Hanoi University of Science and Technology}\hfill 2019--2021
             \begin{description}[before=\small]
-                \item Developed a speech enhancement system using graph-based neural beamforming~\ref{nguyen2022multi}.
-                \item Developed a small-footprint keyword spotting system using deformable convolution~\ref{nguyen2023efficient}.
+                \item Developed a speech enhancement system using graph-based neural beamforming (\ref{nguyen2022multi}).
+                \item Developed a small-footprint keyword spotting system using deformable convolution (\ref{nguyen2023efficient}).
                 % \item Published papers at IETE'21 and IJACSA'22.
             \end{description}
     \end{itemize}
@@ -111,7 +126,9 @@
 \subsection{Unpublished}
 
     \begin{enumerate}[label=U\arabic*]
-        % \mypubc{duong2026rsb}
+        \mypubc{duong2026clad}
+        \mypubc{duong2026zonogpt}
+        \mypubc{duong2026towards}
         \mypubc{le2026verca}
         \mypubc{yin2025deepgpm}
         \mypubc{le2025formal}

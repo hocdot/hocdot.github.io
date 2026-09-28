@@ -51,8 +51,10 @@
     \begin{itemize}
         \role{Applied Scientist Intern}{\href{https://aws.amazon.com/}{Amazon Web Services}}{Santa Clara, CA}{Summer 2026}
             \begin{itemize}[before=\small,label=\textbullet]
-                \item Developed SMT-based path enumeration and fuzzing test generation for compliance rules of AWS services in ControlsDSL, achieving 100\% test coverage and exposing behavioral divergences between legacy and migrated rules.
-                \item Designed automated cross-compliance migration framework porting Java/Python to ControlsDSL and automatically verifies bidirectional behavioral equivalence. Migrated successfully 40\% of staging rules to ControlsDSL for production.
+                % \item Developed SMT-based path enumeration and fuzzing test generation for compliance rules of AWS services in ControlsDSL, achieving 100\% test coverage and exposing behavioral divergences between legacy and migrated rules.
+                % \item Designed automated cross-compliance migration framework porting Java/Python to ControlsDSL and automatically verifies bidirectional behavioral equivalence. Migrated successfully 40\% of staging rules to ControlsDSL for production.
+                \item Developed SMT-based path enumeration and fuzzing for AWS compliance, achieving 100\% test coverage and exposing legacy-migration divergences.
+                \item Built automated Java/Python to ControlsDSL migration framework with bidirectional equivalence verification, porting 40\% of staging rules to production.
             \end{itemize}
         \role{Graduate Researcher}{\href{https://roars.dev/}{ROARS Lab}, \href{https://www.gmu.edu}{George Mason University}}{Fairfax, VA}{2022--present}
             \begin{itemize}[before=\small,label=\textbullet]
@@ -60,8 +62,10 @@
                 \item Developed \href{https://github.com/veristable/veristable}{VeriStable} (FSE'24), a DPLL-based verifier exploiting stable neurons; outperforms $\alpha$-$\beta$-CROWN and NeuralSAT and solved 48 of 51 hard GDVB problems vs. 4 for the baseline (12$\times$ more).
                 \item Extended robustness verification to new perturbation classes with \href{https://github.com/dynaroars/VeriS}{VeriS} (FSE'26) and \href{https://github.com/dynaroars/VeriDou}{VeriDou} (CVPR'26 Highlight): VeriS verifies 78\% of 5{,}508 structural-robustness problems prior tools could not, while VeriDou exposes adversarial examples over 14{,}340 instances on networks prior methods claimed robust.
                 \item Designed \href{https://github.com/dynaroars/aptpchecker}{APTP} (NeurIPS'25), a verifier-independent proof format whose checker outperforms prior work across 16 networks and 400 problems.
-                \item Created Cabl, a constrained abstract domain using a Lagrangian primal--dual method; over 8{,}640 instances, verifies up to 19\% more properties than the best prior abstraction and 31\% more on constrained properties at 5.7$\times$ the speed.
-                \item Built VerCa, an autoencoder robustness verifier solving 87\% of 1{,}500 latent-space properties vs. 66--67\% for state-of-the-art verifiers, with zero invalid counterexamples.
+                \item Developed CLAD, a constrained abstract domain using a Lagrangian primal--dual method; over 8{,}640 instances, verifies up to 19\% more properties than the best prior abstraction and 31\% more on constrained properties at 5.7$\times$ the speed.
+                \item Built VerCa, an autoencoder robustness verifier solving 87\% of latent-space properties, with zero invalid counterexamples.
+                \item Built ZonoGPT, an abstract domain for verifying large GPT models, up to GPT-2 medium with 300M+ parameters.
+                \item Built mBFV, a bound propagation method handling multi-parameter bit-flip perturbations.
             \end{itemize}
         \role{Research Intern}{\href{https://xuanbachle.github.io/}{BachLe's Lab}, University of Melbourne}{Remote}{2021--2022}
             \begin{itemize}[before=\small,label=\textbullet]
@@ -75,8 +79,7 @@
 
 \section{Skills}
     \begin{itemize}
-        \item \textbf{Programming Languages:} Python, C/C++, MATLAB, SMTLib, Lean
-        \item \textbf{ML \& Systems:} PyTorch, CUDA, NumPy
+        \item \textbf{Programming Languages:} Python, C/C++, MATLAB, SMTLib, Lean, PyTorch, CUDA, NumPy
         \item \textbf{Methods:} SAT/SMT solving, abstract interpretation, branch-and-bound, LP/MILP, reinforcement learning
     \end{itemize}
 
