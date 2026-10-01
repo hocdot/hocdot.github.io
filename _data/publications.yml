@@ -17,7 +17,7 @@ main:
     track: VERICODEGEN Workshop
     year: 2026
     code: 
-    pdf: ./assets/papers/song2026verified.pdf
+    pdf: ./assets/papers/song2026leanvipr.pdf
 
 
   - title: "Verifying Neural Network Robustness with Dual Perturbations"
