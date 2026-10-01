@@ -1,4 +1,5 @@
 ## News
+- 09/2026: **NeurIPS'26** workshop paper on certifying MILP results with Lean.
 - 09/2026: **NeurIPS'26** paper on RL branching heuristic for verifying DNNs.
 - 07/2026: Received **Thinking Machines Research Grants** (*$5,000 API Credits*)
 - 05/2026: Started **Applied Scientist Intern** at **Amazon** (*AWS*).

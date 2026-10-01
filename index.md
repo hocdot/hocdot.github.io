@@ -8,5 +8,6 @@ layout: homepage
 
 {% include_relative _includes/news.md %}
 
+{% include_relative _includes/softwares.md %}
 
 {% include_relative _includes/publications.md %}
