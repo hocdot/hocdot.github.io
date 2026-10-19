@@ -2,6 +2,10 @@
 
 \input{preamble}
 
+\geometry{letterpaper, margin=0.6in}
+\titleformat{\section}{\normalfont\large\bfseries}{\thesection}{0.8em}{\MakeUppercase}
+\titleformat{\subsection}{\normalfont\normalsize\bfseries}{\thesubsection}{0.9em}{\MakeUppercase}
+
 \begin{document}
 \thispagestyle{empty}
 
@@ -15,27 +19,34 @@
 
 \section{Education}
     \begin{itemize}
-        \item \textbf{PhD}, Computer Science,  \href{https://www.gmu.edu}{George Mason University}, Fairfax, VA\hfill 2022--present
+        \item \textbf{PhD}, Computer Science,  \href{https://www.gmu.edu}{George Mason University}, Fairfax, VA\hfill 2022--2027 (expected)
+        \begin{description}[before=\small]
+            \item Advisor: \href{https://tvn.roars.dev/}{ThanhVu Nguyen}
+        \end{description}
+
+        \item \textbf{MS}, Computer Science,  \href{https://www.gmu.edu}{George Mason University}, Fairfax, VA\hfill 2022--2026 (expected)
         \begin{description}[before=\small]
             \item Advisor: \href{https://tvn.roars.dev/}{ThanhVu Nguyen}
         \end{description}
         
-        \item \textbf{MS}, Electrical Engineering, \href{https://www.hust.edu.vn/en/}{Hanoi University of Science and Technology}, Hanoi, VN\hfill 2019--2021
+        \item \textbf{MS}, Electrical Engineering, \href{https://www.hust.edu.vn/en/}{Hanoi University of Science and Technology}, Hanoi, Vietnam\hfill 2019--2021
         \begin{description}[before=\small]
             \item Advisor: \href{https://seee.hust.edu.vn/vi/suborgans/person/Khoa-Tu-dong-hoa-5/PGS-TS-Nguyen-Quoc-Cuong-49/}{Quoc-Cuong Nguyen}
         \end{description}
         
-        \item \textbf{BS}, Electrical Engineering, \href{https://www.hust.edu.vn/en/}{Hanoi University of Science and Technology}, Hanoi, VN\hfill 2014--2019
+        \item \textbf{BS}, Electrical Engineering, \href{https://www.hust.edu.vn/en/}{Hanoi University of Science and Technology}, Hanoi, Vietnam\hfill 2014--2019
     \end{itemize}
 
 \section{Experience}
     \begin{itemize}
-        \item \textbf{Applied Scientist Intern}, \href{https://aws.amazon.com/}{Amazon Web Services}, \href{https://www.amazon.com}{Amazon}\hfill 2026
+        \item \textbf{Applied Scientist}, \href{https://www.primeair.amazon/}{Prime Air}, \href{https://www.amazon.com}{Amazon} (Seattle, WA)\hfill 2026 (expected)
+
+        \item \textbf{Applied Scientist Intern}, \href{https://aws.amazon.com/}{Amazon Web Services}, \href{https://www.amazon.com}{Amazon} (Santa Clara, CA)\hfill 2026
             \begin{description}[before=\small]
                 \item Developed SMT-based path enumeration and fuzzing for AWS compliance, achieving 100\% test coverage and exposing legacy-migration divergences.
                 \item Built automated Java/Python to ControlsDSL migration framework with bidirectional equivalence verification, porting 40\% of staging rules to production.
             \end{description}
-        \item \textbf{Research Assistant}, \href{https://roars.dev/}{ROARS Lab}, \href{https://www.gmu.edu}{George Mason University}\hfill 2022--present
+        \item \textbf{Research Assistant}, \href{https://roars.dev/}{ROARS Lab}, \href{https://www.gmu.edu}{George Mason University} (Fairfax, VA)\hfill 2022--present
             \begin{description}[before=\small]
                 \item Developed a verification tool, \href{https://github.com/dynaroars/neuralsat}{NeuralSAT} (\ref{duong2025neuralsat}, \ref{duong2025neuralsat2}), ranked 2$^{nd}$ in VNN-COMPs.
                 % \item Developed a proof generation tool, APTP, outperforms prior work on 400 DNNV problems.
@@ -57,12 +68,12 @@
                 % \item Published papers at ISSTA, FSE, CAV, NeurIPS, and CVPR.
             \end{description}
         
-        \item \textbf{Research Assistant}, \href{https://xuanbachle.github.io/}{BachLe's Lab}, \href{https://www.unimelb.edu.au}{University of Melbourne}\hfill 2021--2022
+        \item \textbf{Research Assistant}, \href{https://xuanbachle.github.io/}{BachLe's Lab}, \href{https://www.unimelb.edu.au}{University of Melbourne} (Remote)\hfill 2021--2022
             \begin{description}[before=\small]
                 \item Worked on a graph-based source code modeling and explanation technique (\ref{nguyen2022ffl}).
             \end{description}
         
-        \item \textbf{Research Assistant}, \href{https://research.hust.edu.vn/seee-lab-sensor-lab}{Sensor Lab}, \href{https://www.hust.edu.vn/en/}{Hanoi University of Science and Technology}\hfill 2019--2021
+        \item \textbf{Research Assistant}, \href{https://research.hust.edu.vn/seee-lab-sensor-lab}{Sensor Lab}, \href{https://www.hust.edu.vn/en/}{Hanoi University of Science and Technology} (Vietnam)\hfill 2019--2021
             \begin{description}[before=\small]
                 \item Developed a speech enhancement system using graph-based neural beamforming (\ref{nguyen2022multi}).
                 \item Developed a small-footprint keyword spotting system using deformable convolution (\ref{nguyen2023efficient}).
@@ -74,19 +85,19 @@
 \section{Awards and Honors}
 
     \begin{itemize}
-        \myaward{Research Grants}{(\$5,000 API Credits)}{Thinking Machines}{2026}
+        \myaward{Research Grants}{(\$5,000 Tinker API Credits)}{Thinking Machines}{2026}
         \myaward{Silver Reviewer Award}{}{ICML}{2026}
-        \myaward{Outstanding PhD Student Award}{}{GMU}{2026}
+        \myaward{Outstanding PhD Student Award}{}{George Mason University}{2026}
         \myaward{Highlight Paper Award}{[\ref{duong2026verifying2}]}{CVPR}{2026}
         \myaward{Broadening Participation Scholarship Award}{}{CVPR}{2026}
         \myaward{Spotlight Paper Award}{[\ref{duong2026compositional}]}{NeurIPS}{2025}
         \myaward{Scholar Award}{}{NeurIPS}{2025}
-        \myaward{Graduate Travel Award}{}{GMU}{2025}
+        \myaward{Graduate Travel Award}{}{George Mason University}{2025}
         \myaward{NeuralSAT}{ranked $2^{nd}$}{VNN-COMP}{2024, 2025}
         \myaward{NeuralSAT}{ranked $4^{th}$}{VNN-COMP}{2023, 2026}
         \myaward{New Participant Award}{}{VNN-COMP}{2023}
-        \myaward{Graduate Scholarship Award}{}{HUST}{2019--2021}
-        \myaward{Outstanding Undergraduate Award}{}{HUST}{2015--2018}
+        \myaward{Graduate Scholarship Award}{}{Hanoi University of Science and Technology}{2019--2021}
+        \myaward{Outstanding Undergraduate Award}{}{Hanoi University of Science and Technology}{2015--2018}
     \end{itemize}
 
 
@@ -148,7 +159,7 @@
             \item Amazon Research Award (Automated Reasoning): Scalable and Precise DNN Constraint Solving with Abstraction and Conflict Clause Learning (2023). \$50,000 unrestricted gift. Amazon.
             \item NSF CAREER: NeuralSAT: A Constraint-Solving Framework for Verifying Deep Neural Networks (2023). NSF 2238133. 8/1/2023–7/31/2028, \$510,509. NSF.
         \end{itemize}
-        \item Help review conference papers:
+        \item Review conference papers:
         \begin{itemize}
             \item ISSTA'23
             \item PLDI'24, OOPSLA'24
