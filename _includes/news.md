@@ -6,7 +6,7 @@
 - 07/2026: Received **Thinking Machines Research Grants** (*$5,000 API Credits*)
 - 05/2026: Started **Applied Scientist Intern** at **Amazon** (*AWS*).
 - 05/2026: Received **ICML'26 Silver Reviewer Award**.
-- 04/2026: Received **Outstanding PhD Student Award** from **GMU** (*CS*).
+- 04/2026: Received **Outstanding PhD Student Award** from **GMU** (*Computer Science*).
 - 04/2026: Received **CVPR'26 Scholar Award**.
 - 02/2026: **CVPR'26** paper on analyzing DNN robustness with dual perturbations (*Highlight*).
 - 01/2026: **FSE'26** paper on verifying structural robustness properties of AI systems.
