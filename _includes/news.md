@@ -1,5 +1,6 @@
 ## News
-- 10/2026: Received full-time **Applied Scientist** offer from **Amazon** (*Prime Air*).
+- 10/2026: Received full-time offer for **Applied Scientist** from **Amazon** (*Prime Air*).
+- 10/2026: Received **Spring/Summer 2027 High Impact Grant** from **GMU**.
 - 09/2026: **NeurIPS'26** workshop paper on certifying MILP results with Lean.
 - 09/2026: **NeurIPS'26** paper on RL branching heuristic for verifying DNNs.
 - 07/2026: Received **Thinking Machines Research Grants** (*$5,000 API Credits*)
